@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/booklist/booklist",
+    "pages/index1/index1",
+    "pages/share/share",
+    "pages/route/route",
+    "pages/my/my",
+    "pages/bookinformation/bookinformation"
+  ],
+  "subPackages": [
+    {
+      "root": "package",
+      "pages": [
+        "pages/personal/personal",
+        "pages/bookinformation1/bookinformation1",
+        "pages/borrowed-books/borrowed-books",
+        "pages/borrowedbook-records/borrowedbook-records",
+        "pages/returnedbook-records/returnedbook-records",
+        "pages/ranking-list/ranking-list",
+        "pages/feedback/feedback",
+        "pages/about/about",
+        "pages/search/search",
+        "library/library"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "图书借阅柜",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#191970",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "首页",
+        "iconPath": "static/image/index_white.png",
+        "selectedIconPath": "static/image/index_black.png"
+      },
+      {
+        "pagePath": "pages/booklist/booklist",
+        "text": "图书柜",
+        "iconPath": "static/image/mybook_white.png",
+        "selectedIconPath": "static/image/mybook_black.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/image/my_white.png",
+        "selectedIconPath": "static/image/my_black.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

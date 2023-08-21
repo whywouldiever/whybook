@@ -1,0 +1,40 @@
+
+#bg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.container_small {
+    display: inline-block;
+    width: 150px;
+    height: 240px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+.image {
+    width: 140px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    border-style: solid;
+}
+.text {
+    font-size: 18px;
+    font-family: '仿宋';
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: bold;
+}
+#author {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+}
+

@@ -1,0 +1,92 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20rpx;
+}
+.book-info {
+    display: flex;
+    align-items: center;
+}
+.book-cover {
+    width: 200rpx;
+    height: 280rpx;
+    margin-right: 80rpx;
+}
+.book-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 280rpx;
+}
+.book-title {
+    font-size: 32rpx;
+    font-weight: bold;
+    margin-bottom: 10rpx;
+}
+.book-publisher,
+.book-isbn,
+.book-status {
+    font-size: 24rpx;
+    margin-bottom: 10rpx;
+	margin-left: 26rpx;
+}
+.borrow-btn {
+    width: 140rpx;
+    height: 56rpx;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 24rpx;
+    border-radius: 10rpx;
+    cursor: pointer;
+	margin-top: 20rpx;
+}
+.book-intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40rpx;
+    width: 700rpx;
+}
+.intro-title {
+    font-size: 32rpx;
+    font-weight: bold;
+    margin-bottom: 20rpx;
+}
+.intro-text {
+    font-size: 24rpx;
+    line-height: 40rpx;
+    text-align: justify;
+    margin-bottom: 20rpx;
+}
+.intro-toggle {
+    font-size: 24rpx;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.related-books {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40rpx;
+    width: 700rpx;
+}
+.related-title {
+    font-size: 32rpx;
+    font-weight: bold;
+    margin-bottom: 20rpx;
+}
+.related-book {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20rpx;
+}
+.related-cover {
+    width: 80rpx;
+    height: 100rpx;
+    margin-right: 20rpx;
+}
+.related-info {
+    font-size: 24rpx;
+}
+
